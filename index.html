@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <p class="eyebrow">GIT + GITHUB PRACTICE PROJECT</p>
+      <h1>Student Management System</h1>
+      <p class="subtitle">Add, search, view and remove student records.</p>
+    </header>
+
+    <section class="panel">
+      <h2>Add a student</h2>
+      <form id="student-form">
+        <label for="student-name">Full name</label>
+        <input id="student-name" name="name" placeholder="e.g. Ananya Rao" required>
+
+        <label for="student-email">Email address</label>
+        <input id="student-email" name="email" type="email" placeholder="e.g. ananya@example.com" required>
+
+        <label for="student-course">Course</label>
+        <select id="student-course" name="course" required>
+          <option value="">Choose a course</option>
+          <option>Java</option>
+          <option>Python</option>
+          <option>Full Stack Development</option>
+          <option>Data Analytics</option>
+          <option>Cloud Computing</option>
+        </select>
+        <button type="submit">Add student</button>
+      </form>
+    </section>
+
+    <section class="panel">
+      <div class="list-heading">
+        <div>
+          <h2>Student records</h2>
+          <p id="student-count">0 students</p>
+        </div>
+        <input id="search" type="search" placeholder="Search students..." aria-label="Search students">
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Name</th><th>Email</th><th>Course</th><th>Action</th></tr></thead>
+          <tbody id="student-list"></tbody>
+        </table>
+      </div>
+      <p id="empty-message" class="empty">No students yet. Add your first student above.</p>
+    </section>
+    <footer>Practice project — built to learn Git and GitHub.</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
