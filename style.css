@@ -10,7 +10,7 @@ header { margin-bottom: 24px; }
 .eyebrow { color: #2563eb; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; }
 h1 { margin: 8px 0; font-size: clamp(28px, 5vw, 42px); }
 .subtitle, footer, #student-count { color: #64748b; }
-.panel { background: white; border: 1px solid #e2e8f0; border-radius: 14px; padding: 24px; margin: 18px 0; box-shadow: 0 5px 18px #0f172a0a; }
+.panel { background: black; border: 1px solid #e2e8f0; border-radius: 14px; padding: 24px; margin: 18px 0; box-shadow: 0 5px 18px #0f172a0a; }
 h2 { margin-top: 0; font-size: 20px; }
 form { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 16px; }
 label { font-size: 14px; font-weight: 600; align-self: end; }
