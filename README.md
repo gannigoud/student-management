@@ -115,6 +115,6 @@ git stash pop
 
 ## Important safety notes
 - Run `git status` before committing, merging or deleting branches.
-- Do not use `git reset --hard` or `git push --force` while learning; they can discard work or overwrite remote history.
+- Dont use the  `git reset --hard` or `git push --force` while learning; they can discard work or overwrite remote history.
 - Never commit passwords, API keys, private files or personal data.
 - A commit is saved in your local Git history; `git push` sends commits to GitHub.
